@@ -1,0 +1,531 @@
+nav{
+    
+    padding:0;
+    
+
+}
+
+.navbar.fixed-top {
+  background-color: transparent;
+  transition: background-color 200ms linear;
+}
+.container-fluid{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+    
+    
+}
+.aboutdes{
+    
+    text-align: left;
+    
+}
+
+.container{
+    
+    background-color: transparent;
+    
+}
+.main{
+    
+    background-color: transparent;
+}
+.resume{
+    margin-left: 44%;
+    margin-right: 44%;
+    margin-bottom: 13px;
+}
+html,body{
+    font-family: Aldrich;font-size: 18px;
+/*color: #ed2939;*/color:#a8a8a8;
+margin: 0 px;
+    padding: 0 px;
+    display: inline-block;
+  background:black;  /* fallback for old browsers */
+    background: #3b4262;
+  color: #ffffff;
+
+    
+}
+
+
+
+h2{
+    
+  text-align: center;font-family: Orbitron;
+    color:#ed2939;
+/*
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+    
+*/
+}
+
+.jumbotron{
+    background:transparent;
+    text-align: center;
+    
+}
+
+.sectionLights{
+    width:auto;
+   background-image: url(../assets/giphy.gif);
+    background-size:100%;
+    padding: 15rem;
+    color:#ed2939;
+    
+}
+
+.sectionLight{
+    background-color:grey;
+    padding: 2rem;
+    
+    
+}
+div.box{
+    display: block;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px 0 rgba(0,0,0,.1);
+    text-align: center;
+    border-radius: 10px;
+    
+    
+}
+
+.edu{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about{
+    
+    padding-top: 40px
+    
+    
+}
+
+
+.imgs{
+    border-radius: 60%;
+    background:transparent;
+}
+
+.sectionDarks{
+    
+    background-color: green;
+    
+}
+
+.devicon-python-plain-wordmark:before{content:"\eb88"}.devicon-python-plain:before{content:"\eb89"}
+
+.sectionDark{
+    
+    background-color: transparent;
+    padding: 2rem;
+    
+}
+
+.coolStuffWrapper{
+    
+    margin:20px;
+    
+}
+
+h3,h4,stong{margin-top:0.5em;padding-top:0.5em;line-height:1;color:floralwhite}
+h3{font-size:1.5rem}
+#introModalHeader{
+    
+}
+div{
+    
+    display:block;
+    
+}
+.tech{margin:5px;}.user{text-align:center;font-size:60px;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}.user p{font-size:16px}
+#introModall{
+    padding-left:155px;
+}
+
+button.coolStuffBtn{
+    background-color: dodgerblue;
+    color:white;
+    width:30%;
+    display: block;
+    margin: auto;
+    
+    
+}
+.project{
+    
+    text-align: justify;
+    
+    
+}
+
+table td{
+    vertical-align: top;
+}
+
+
+h5.modal-title{
+margin:auto;
+    padding-left: 4rem;
+
+    }
+.modalFormWrapper{
+    padding: 2rem;
+}
+
+.imgCenter{
+    display: block;
+    margin: auto;
+}
+.btnCenter{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: block;
+    width:auto;
+}
+.footerImg{
+    padding:15px;
+}
+.fa{
+    margin:10px;
+}
+.pic{
+    
+   background-color: transparent
+       ; 
+     box-shadow: 10px 10px 5px #aaaaaa;
+}
+.pics{
+    
+   background-color: transparent; 
+    padding: .5rem;
+     box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+.socialWrapper{
+    margin: auto;
+}
+.fa-facebook-square{
+    color:#3b5998;
+}
+.fa-google-plus-square{
+    color:#c32f10;
+}
+.fa-instagram{
+    color:white;
+}
+.fa-linkedin-square{
+    
+    color: #0077B5;
+}
+.fa-github-square{
+    
+    color: #6cc644;
+}
+.fa-youtube-play{
+    color: #FF0000;
+}
+
+
+
+.foo{
+    
+    text-align: center;
+    background-color: black;
+}
+#sectionDark .card{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+    color:black;
+}
+
+
+font-family: 'Markazi Text', serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Aldrich', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Alex Brush', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Calligraffitti', cursive;
+font-family: 'Kurale', serif;
+font-family: 'Biryani', sans-serif;
+font-family: 'Trocchi', serif;
+font-family: 'Aladin', cursive;
+font-family: 'Vast Shadow', cursive;
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	 font-family: Aladin;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+   
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/*    */
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.item .image {
+  padding: 1em 2em;
+    z-index: 2;
+}
+.item .image > div {
+  position: relative;
+  text-align: center;
+  font-size: 0.8em;
+}
+.item .image > div::after {
+  content: '';
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #232b50;
+  position: absolute;
+  top: 2.75em;
+  left: 2.5em;
+  z-index: -1;
+}
+.item .image img {
+  border-radius: 50%;
+  height: 5em;
+  border: 0.35em solid #5ed3bf;
+
+}
+.item .image span {
+  display: block;
+  clear: both;
+  padding: 0.25em 0;
+  margin: 0.5em 0;
+  background: #3b4262;
+}
+.item .details {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.item .details > div {
+  border: 1px solid #232b50;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  margin: 1em 0;
+}
+.item .details > div h1 {
+  color: #5ed3bf;
+  font-size: 1.4em;
+  margin: 0;
+  padding: 0 0 0.5em 0;
+  letter-spacing: 0.1em;
+}
+.item .details > div p {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+.item .details::before {
+  content: '';
+  width: 0;
+  height: 100%;
+  border-left: 1px solid #232b50;
+  position: absolute;
+  top: 0;
+  left: -4.35em;
+  z-index: 1;
+}
+
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}

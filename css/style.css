@@ -1,7 +1,24 @@
+.header-icons
+
+
+.header-icons{display:flex;
+    justify-content:center;text-align:center;
+}
+.header-icons .icon{color:#fff;text-align:center;}
+.header-icons .icon{height:200px;padding:20px;border-radius:50%;border:2px solid #fff;transition:all .7s;width:200px;font-size:50px;margin-top: 30px;}
+
+.header-icons .icon:active,.header-icons .icon:hover{color:#ed2939;background:#fff}
 
 
 
+@media only screen and (min-width:550px){.header-icons .icon{width:80px;height:80px;font-size:35px;position: relative;}}
 
+
+.demo{
+    
+    font-size:35px;
+    
+}
 
 nav{
     
@@ -80,6 +97,7 @@ h2{
    background-image: url(../assets/giphy.gif);
     background-size:100%;
     padding: 15rem;
+    padding-top: 10rem;
     color:#ed2939;
     
 }

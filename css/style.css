@@ -66,8 +66,8 @@ html,body{
 margin: 0 px;
     padding: 0 px;
     display: inline-block;
-  background:#202020;  /* fallback for old browsers */
-  color: darkgrey;
+  background:#181818;  /* fallback for old browsers */
+  color: #384B5D;
 
     
 }
@@ -98,7 +98,8 @@ h2{
     background-size:100%;
     padding: 15rem;
     padding-top: 10rem;
-    color:#ed2939;
+/*    color:#ed2939;*/
+    color:white;
     
 }
 
@@ -142,7 +143,7 @@ div.box{
 
 .sectionDarks{
     
-    background-color: #202020;
+    background-color: white;
     
 }
 
@@ -150,7 +151,7 @@ div.box{
 
 .sectionDark{
     
-    background-color: #181818;
+    background-color:white;
     padding: 2rem;
     
 }
@@ -172,6 +173,17 @@ div.box{
     margin:20px;
     
 }
+
+h5{
+    font-size: 20px;
+    color:#384B5D;
+    
+}
+#newColHeading{
+    
+    color:#384B5D;
+}
+
 
 h3,h4,stong{margin-top:0.5em;padding-top:0.5em;line-height:1;color:floralwhite}
 h3{font-size:1.5rem}
@@ -473,7 +485,7 @@ ul{
   margin: 0 auto;
 }
 .item .image {
-  padding: 1em 2em;
+  padding: 1.3em 2em;
     z-index: 2;
 }
 .item .image > div {
@@ -485,16 +497,16 @@ ul{
   content: '';
   width: 100%;
   height: 0;
-  border-bottom: 1px solid #181818;
+  border-bottom: 1px solid black;
   position: absolute;
   top: 2.75em;
   left: 2.5em;
   z-index: -1;
 }
 .item .image img {
-  border-radius: 50%;
+  
   height: 5em;
-  border: 0.35em solid #5ed3bf;
+ 
 
 }
 .item .image span {
@@ -502,7 +514,8 @@ ul{
   clear: both;
   padding: 0.25em 0;
   margin: 0.5em 0;
-  background: #181818;
+  background: white;
+    color:#384B5D;
 }
 .item .details {
   position: relative;
@@ -511,13 +524,13 @@ ul{
           flex-grow: 1;
 }
 .item .details > div {
-  border: 1px solid #232b50;
+  border: 1px solid ;
   border-radius: 0.5em;
   padding: 1.5em;
   margin: 1em 0;
 }
 .item .details > div h1 {
-  color: #5ed3bf;
+  color: #384B5D;
   font-size: 1.4em;
   margin: 0;
   padding: 0 0 0.5em 0;

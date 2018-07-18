@@ -1,3 +1,195 @@
+.about-row p{
+    
+     font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+    color : white;
+}
+
+.about-row h5{
+    
+    font-family: 'Scheherazade', serif;
+  font-size: 29px;
+  margin-bottom: 6px;
+    color : white;
+    font-weight: bold;
+}
+
+ :root {
+  --mobile-width: 414px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+#about {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding-bottom: 120px;
+  background: #ec6868;
+  color: #fff;
+}
+
+.about-intro {
+  max-width: 840px;
+  margin: 0px 10px 120px;
+  font-size: 26px;
+  line-height: 42px;
+  z-index: 1;
+  animation: 1.8s fadein;
+}
+
+.about-intro > span {
+  font-weight: 700;
+}
+
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 840px;
+  margin: 0 20px 42px;
+}
+
+.about-me {
+  position: relative;
+  flex: 1;
+    float: inherit;
+}
+
+.about-me-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 160px;
+}
+
+.about-me-description {
+  margin: 10px 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .about-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me {
+    margin-bottom: 42px;
+  }
+
+  .about-me:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+
+/*
+
+h1,
+h3,
+h5,
+p {
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
+    Arial, sans-serif;
+  overflow-x: hidden;
+  background: #ec6868;
+}
+*/
+
+
+/*
+.overflow-wrapper h5 {
+  font-family: 'Scheherazade', serif;
+  font-size: 29px;
+  margin-bottom: 6px;
+    color : white;
+}
+
+.overflow-wrapper p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+    color : white;
+}
+*/
+
+
+/* ----------------------------------------------- COMMON ----------------------------------------------- */
+
+.green {
+  background-color: #56d7b6;
+  color: #fff;
+}
+
+.blue {
+  background-color: #3984ea;
+  color: #fff;
+}
+
+.red {
+  background-color: #ea0064;
+}
+
+.yellow {
+  background-color: #fdd369;
+}
+
+.my52-black {
+  background-color: #141720;
+  color: #fff;
+}
+
+.my52-past {
+  background-color: #191919;
+  color: #fff;
+}
+
+.mem-plz {
+  background-color: #d7d7d7;
+  color: #141720;
+}
+
+.rnn {
+  background-color: #fbc736;
+  color: #141720;
+}
+
+.palace {
+  background-color: #2c98f0;
+  color: #fff;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
 .header-icons
 
 
@@ -55,12 +247,8 @@ nav{
     
     background-color: transparent;
 }
-.resume{
-    margin-left: 44%;
-    margin-right: 44%;
-    margin-bottom: 13px;
-}
-html,body{
+ 
+    html,body{
     font-family: Aldrich;font-size: 18px;
 /*color: #ed2939;*/color:#a8a8a8;
 margin: 0 px;
@@ -71,9 +259,31 @@ margin: 0 px;
 
     
 }
+    
+    
+/*
+    font-family: Aldrich;font-size: 18px;
+color: #ed2939;
+margin: 0 px;
+    padding: 0 px;
+    display: inline-block;
+  background:white;   fallback for old browsers 
+  color: #384B5D;
 
+    font-family: "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+*/
+.research{
+    padding-top: 10px;
+}
 
-
+.hresume{
+    
+  padding-top: 1rem;
+    margin-top: 52px;
+}
+#Resume{
+    margin-bottom: 50px;
+}
 h2{
     
   text-align: center;font-family: Orbitron;
@@ -103,12 +313,67 @@ h2{
     
 }
 
+
+
 .sectionLight{
-    background-color:#181818;
+/*
+    background-color:#f0f2f9;
+    padding-top: 20px;
+    background-color:#f9f9f9;
+    padding: 2rem;
+   
+*/
+    
+max-width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+  padding-left:0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
+    Arial, sans-serif;
+  overflow-x:hidden;
+  background: #ec6868;
+    
+}
+
+.sectionLightsk{
+/*    background-color:#f0f2f9;*/
+    background-color:#202020;
     padding: 2rem;
     
     
 }
+
+h2{
+    
+    margin-top:3%;
+    
+}
+
+.abt_title{
+    margin-top: 6.5%;
+}
+
+.aboutdes{
+    margin-top: 4%;
+    margin-bottom: 15.3%;
+}
+
+button.resume{
+    
+    margin-bottom: 0%;
+}
+
+.sectionLightss{
+/*    background-color:#f0f2f9;*/
+    background-color:white;
+    padding: 1rem;
+    margin-top: 2px;
+    
+    
+}
+
+
 div.box{
     display: block;
     height: 300px;
@@ -128,12 +393,6 @@ div.box{
 }
 
 
-.about{
-    
-    padding-top: 40px
-    
-    
-}
 
 
 .imgs{
@@ -141,11 +400,6 @@ div.box{
     background:transparent;
 }
 
-.sectionDarks{
-    
-    background-color: white;
-    
-}
 
 .devicon-python-plain-wordmark:before{content:"\eb88"}.devicon-python-plain:before{content:"\eb89"}
 
@@ -156,6 +410,15 @@ div.box{
     
 }
 
+
+.sectionDarks{
+    
+    background-color:#f9f9f9;
+    padding: 2rem;
+    
+}
+
+
 .text-red {
     color:#384B5D !important;
     font-size: 1.2rem;
@@ -163,7 +426,7 @@ div.box{
 .sectionDarkss{
     
     background-color:white;
-    color:grey;
+    color:#384B5D !important;
     padding: 2rem;
     
 }
@@ -176,16 +439,21 @@ div.box{
 
 h5{
     font-size: 20px;
+/*    color:#384B5D;*/
     color:#384B5D;
     
 }
 #newColHeading{
     
-    color:#384B5D;
+    color:#c16068;
 }
 
+h2{
+/*    color: #384B5D;*/
+    color: #c16068;
+}
 
-h3,h4,stong{margin-top:0.5em;padding-top:0.5em;line-height:1;color:floralwhite}
+h3,h4,stong{margin-top:0.5em;padding-top:0.5em;line-height:1;color:white;}
 h3{font-size:1.5rem}
 #introModalHeader{
     
@@ -195,7 +463,16 @@ div{
     display:block;
     
 }
+
 .tech{margin:5px;}.user{text-align:center;font-size:60px;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}.user p{font-size:16px}
+
+
+.tech{
+    color:red;
+    margin-bottom:10%;
+    
+}
+
 #introModall{
     padding-left:155px;
 }
@@ -337,7 +614,7 @@ ul{
 	font: bold 16px sans-serif;
 
 	padding: 55px 50px;
-	margin-top: 80px;
+	margin-top: 0px;
 }
 
 .footer-distributed .footer-left,
@@ -452,11 +729,13 @@ ul{
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
+    text-align: center;
     
 }
 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
+    margin-left: 50px;
 }
 
 .footer-distributed .footer-icons a{
@@ -487,6 +766,7 @@ ul{
 .item .image {
   padding: 1.3em 2em;
     z-index: 2;
+    
 }
 .item .image > div {
   position: relative;
@@ -506,15 +786,17 @@ ul{
 .item .image img {
   
   height: 5em;
+    border-radius: 50%;
+    border:1px;
  
 
 }
 .item .image span {
-  display: block;
+  display:inline-block;
   clear: both;
-  padding: 0.25em 0;
-  margin: 0.5em 0;
-  background: white;
+  padding: 0.15em 0;
+  margin: 0.2em 0;
+  background:none;
     color:#384B5D;
 }
 .item .details {
@@ -547,9 +829,9 @@ ul{
   height: 100%;
   border-left: 1px solid #232b50;
   position: absolute;
-  top: 0;
+  top: 20%;
   left: -4.35em;
-  z-index: 1;
+  z-index: -1;
 }
 
 

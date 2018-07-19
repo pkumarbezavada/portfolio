@@ -3,15 +3,14 @@
      font-size: 16px;
   line-height: 26px;
   font-weight: 300;
-    color : white;
+    color: #384B5D;
 }
 
 .about-row h5{
-    
-    font-family: 'Scheherazade', serif;
+    font-family: 'Aldrich' , serif;
   font-size: 29px;
   margin-bottom: 6px;
-    color : white;
+color: #c16068;
     font-weight: bold;
 }
 
@@ -31,14 +30,15 @@
   flex-direction:column;
   align-items: center;
   padding-bottom: 120px;
-  background: #ec6868;
-  color: #fff;
+   background-color:#f0f2f9;
+ color: #384B5D;
+    font-family: Aldrich;
 }
 
 .about-intro {
   max-width: 840px;
   margin: 0px 10px 120px;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 42px;
   z-index: 1;
   animation: 1.8s fadein;
@@ -218,6 +218,13 @@ nav{
     
 
 }
+nav {
+  width: 100%;
+  height: 60px; 
+  position: fixed; 
+  top: 0;
+  background: #1ABC9C;
+}
 
 .navbar.fixed-top {
   background-color: transparent;
@@ -332,7 +339,7 @@ max-width: 100%;
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
     Arial, sans-serif;
   overflow-x:hidden;
-  background: #ec6868;
+   background-color:#f0f2f9;
     
 }
 
@@ -346,13 +353,10 @@ max-width: 100%;
 
 h2{
     
-    margin-top:3%;
+    margin-top:6%;
     
 }
 
-.abt_title{
-    margin-top: 6.5%;
-}
 
 .aboutdes{
     margin-top: 4%;
@@ -438,7 +442,7 @@ div.box{
 }
 
 h5{
-    font-size: 20px;
+    font-size: 19px;
 /*    color:#384B5D;*/
     color:#384B5D;
     
@@ -791,11 +795,12 @@ ul{
  
 
 }
+
 .item .image span {
-  display:inline-block;
+  display:inherit;
   clear: both;
-  padding: 0.15em 0;
-  margin: 0.2em 0;
+  padding: 0.5em 0;
+  margin: 0.5em 0;
   background:none;
     color:#384B5D;
 }

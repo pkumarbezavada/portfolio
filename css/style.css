@@ -2,7 +2,7 @@
     
      font-size: 16px;
   line-height: 26px;
-  font-weight: 300;
+  font-weight: 200;
     color: #384B5D;
 }
 
@@ -30,14 +30,14 @@ color: #c16068;
   flex-direction:column;
   align-items: center;
   padding-bottom: 120px;
-   background-color:#f0f2f9;
+   background-color:#f9f9f9;
  color: #384B5D;
     font-family: Aldrich;
 }
 
 .about-intro {
   max-width: 840px;
-  margin: 0px 10px 120px;
+  margin: 0px 5px 50px;
   font-size: 22px;
   line-height: 42px;
   z-index: 1;
@@ -49,29 +49,40 @@ color: #c16068;
 }
 
 .about-row {
-  display: flex;
-  justify-content: space-between;
+  display:inline-flex;
   width: 100%;
   max-width: 840px;
-  margin: 0 20px 42px;
-}
+  margin: 0 20px 22px;
+    word-break:break-all;
+    word-wrap: break-word;
+    text-align:justify;
+    
+    
+    }
+
 
 .about-me {
   position: relative;
   flex: 1;
     float: inherit;
+
+    
+   
 }
 
 .about-me-border {
   position: absolute;
   top: 0;
-  left: 0;
+  left:0;
   width: 2px;
   height: 160px;
+
+
 }
 
 .about-me-description {
-  margin: 10px 30px;
+  margin: 10px 20px;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -339,7 +350,7 @@ max-width: 100%;
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Roboto, Helvetica,
     Arial, sans-serif;
   overflow-x:hidden;
-   background-color:#f0f2f9;
+   background-color:#f9f9f9;
     
 }
 
@@ -353,7 +364,8 @@ max-width: 100%;
 
 h2{
     
-    margin-top:6%;
+margin-top:7.5%;
+    
     
 }
 
@@ -373,6 +385,7 @@ button.resume{
     background-color:white;
     padding: 1rem;
     margin-top: 2px;
+    
     
     
 }
@@ -413,6 +426,10 @@ div.box{
     padding: 2rem;
     
 }
+.sectionDark .col-12{
+    margin-bottom: 5%;
+    
+}
 
 
 .sectionDarks{
@@ -431,8 +448,14 @@ div.box{
     
     background-color:white;
     color:#384B5D !important;
-    padding: 2rem;
+    padding: 1.3em 5em;
     
+    
+}
+
+.sectionDarkss h2{
+    
+margin-bottom: 1.2rem;
 }
 
 .coolStuffWrapper{
@@ -468,12 +491,19 @@ div{
     
 }
 
-.tech{margin:5px;}.user{text-align:center;font-size:60px;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}.user p{font-size:16px}
+.tech{margin:5px;}.user{text-align:left;font-size:60px;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between}.user p{font-size:18px}
 
-
+.sectionLightsk h2{
+    margin-top: 8%;
+    margin-bottom: auto;
+}
 .tech{
     color:red;
-    margin-bottom:10%;
+    margin-bottom:12%;
+    text-align: justify;
+    padding-top: 2rem;
+    
+   
     
 }
 
@@ -490,12 +520,7 @@ button.coolStuffBtn{
     
     
 }
-.project{
-    
-    text-align: justify;
-    
-    
-}
+
 
 table td{
     vertical-align: top;
@@ -764,7 +789,7 @@ ul{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 .item .image {
